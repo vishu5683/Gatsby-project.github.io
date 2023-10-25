@@ -1,0 +1,13 @@
+.ftco-section {
+    background-image: url(./assets/footer.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 50px 150px;
+    text-align: center;
+    /* border-style: dotted;
+    border-color: black; */
+}
+.footerlink {
+    text-align: left;
+}
