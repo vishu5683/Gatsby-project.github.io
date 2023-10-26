@@ -40,8 +40,29 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`, // Needed for dynamic images
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `pages`,
+        // Path to the directory
+        path: `${__dirname}/src/screens`,
+      },
+      
+    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     // The unique name for each instance
+    //     name: `pages`,
+    //     // Path to the directory
+    //     path: `${__dirname}/src/components`,
+    //   },
+    // },
+    
   ],
+  
 }
 
  
