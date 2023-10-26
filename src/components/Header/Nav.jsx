@@ -1,7 +1,8 @@
 import React from "react";
 import "./Nav.css";
-import Logo from "./assets/logo.png";
-import Bag from "./assets/bag.png";
+// import Logo from "./assets/logo.png";
+// import Bag from "./assets/bag.png";
+import { StaticImage } from "gatsby-plugin-image"
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
               alignItems: "center",
             }}
           >
-            <img className="Logoimg" src={Logo} />
+            < StaticImage className="Logoimg" src="./assets/logo.png" />
             <div className="brandNameContainer">
               <h2 className="brandNameHeading brandNameHeading1">Sternet</h2>
               <h2 className="brandNameHeading brandNameHeading2">Smart</h2>

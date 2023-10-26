@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-default",
-  "homepage": "https://github.com/vishu5683/GatsbyLive.github.io.git",
+  "homepage": "https://github.com/vishu5683/Gatsby-project.github.io.git",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
@@ -10,11 +10,11 @@
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
     "gatsby": "^5.12.4",
-    "gatsby-plugin-image": "^3.12.0",
+    "gatsby-plugin-image": "^3.12.2",
     "gatsby-plugin-manifest": "^5.12.0",
-    "gatsby-plugin-sharp": "^5.12.0",
+    "gatsby-plugin-sharp": "^5.12.2",
     "gatsby-source-filesystem": "^5.12.0",
-    "gatsby-transformer-sharp": "^5.12.0",
+    "gatsby-transformer-sharp": "^5.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-owl-carousel": "^2.3.3"
@@ -29,7 +29,7 @@
   "license": "0BSD",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",

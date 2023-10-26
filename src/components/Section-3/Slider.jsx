@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Slider.css"
-import sofa from "./assets/sofa.png"
+// import sofa from "./assets/sofa.png"
+import { StaticImage } from "gatsby-plugin-image"
+
 const Slider = () => {
   return (
     <>
@@ -15,19 +17,19 @@ const Slider = () => {
 </div>
 <div className='sofa_section_wrap'>
     <div className='sofa_bx text-center'>
-        <img src={sofa}/>
+        <StaticImage  src="./assets/sofa.png"/>
         <p>25%</p>
     </div>
     <div className='sofa_bx text-center'>
-        <img src={sofa}/>
+        <StaticImage  src="./assets/sofa.png"/>
         <p>50%</p>
     </div>
     <div className='sofa_bx text-center'>
-        <img src={sofa}/>
+        <StaticImage  src="./assets/sofa.png"/>
         <p>75%</p>
     </div>
     <div className='sofa_bx text-center'>
-        <img src={sofa}/>
+        <StaticImage  src="./assets/sofa.png"/>
         <p>100%</p>
     </div>
 </div>

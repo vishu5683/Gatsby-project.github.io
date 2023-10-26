@@ -1,6 +1,7 @@
 import React from 'react'
-import TV from "./assets/tv.png"
+// import TV from "./assets/tv.png"
 import "./section.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Section5 = () => {
   return (
@@ -41,8 +42,8 @@ const Section5 = () => {
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12 text-center">
-                      <img
-                        src={TV}
+                      <StaticImage 
+                        src="./assets/tv.png"
                         className="img-fluid"
                         style={{ marginLeft: "20px" }}
                       />

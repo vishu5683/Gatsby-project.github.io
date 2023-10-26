@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../components/Header/Nav';
+// import Nav from '../components/Header/Nav';
 import "./layout.css"
 import Section1 from '../components/Section 1/Section1';
 import Section2 from '../components/Section-2/Section2';
@@ -10,7 +10,7 @@ import Email from '../components/Section-6/Email';
 import Footer from '../components/Section-7/footer';
 import Navbar from '../components/Header/Nav';
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
    <>
    
